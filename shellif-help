@@ -185,18 +185,7 @@ fi
 
 ============其他例子============
 1、查看当前操作系统类型
-?
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
+
 #!/bin/sh
 SYSTEM=`uname -s`
 if [ $SYSTEM = "Linux" ] ; then
@@ -211,20 +200,7 @@ fi
 
 
 2、if利用read传参判断
-?
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
+
 #!/bin/bash
 read -p "please input a score:" score
 echo -e "your score [$score] is judging by sys now"
@@ -281,39 +257,7 @@ fi
 
 
 5、挂载硬盘脚本(windows下的ntfs格式硬盘)
-?
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
+
 #! /bin/sh
 dir_d=/media/disk_d
 dir_e=/media/disk_e
